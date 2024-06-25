@@ -9,9 +9,9 @@ function factorial() {
   let factorNum = 1
 
   while (factorNum> 0) {
-    factorNum = num * num
-    num = num - 1
+    newNum = num -1
+    factorNum = num * newNum
   }
   
-  alert ('The factorial is...       ' + factorNum)
+  alert ('The factorial is...       ' + newNum)
 }
