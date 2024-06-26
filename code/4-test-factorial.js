@@ -8,10 +8,10 @@ function factorial() {
   num = Number (num)
   let factorNum = 1
 
-  while (factorNum> 0) {
-    newNum = num -1
-    factorNum = num * newNum
+  while (num > 0) {
+    factorNum = factorNum * num
+    num = num -1
   }
   
-  alert ('The factorial is...       ' + newNum)
+  alert ('The factorial is...  ' + factorNum )
 }
