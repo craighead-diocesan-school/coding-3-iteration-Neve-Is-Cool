@@ -8,9 +8,12 @@ function factorial() {
   num = Number (num)
   let factorNum = 1
 
+  const numDecrease = 1
+
+
   while (num > 0) {
     factorNum = factorNum * num
-    num = num -1
+    num = num -numDecrease
   }
   
   alert ('The factorial is...  ' + factorNum )

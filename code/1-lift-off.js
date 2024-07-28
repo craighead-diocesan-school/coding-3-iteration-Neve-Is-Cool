@@ -5,9 +5,11 @@
 function liftOff() {
   let count = prompt ('Pick a random number?')
  
+  const countDown = 1
+
   while (count > 0) {
     alert(count + '...')
-    count = count - 1
+    count = count - countDown
   }
    
   alert('Lift Off!')
